@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 import { Background, Container, Content } from './styles';
 import logoImg from '../../assets/logo.svg';
 
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../../hooks/AuthContext';
 import getValidationErrors from '../../utils/getValidationErrors';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
